@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --font-koho: "KoHo", sans-serif;
+    --tracking-koho: -0.08em;
+    --color-mmRed: #B60000;
+    --color-inputGrey: #6C6C6C;
+}
