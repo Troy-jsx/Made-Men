@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Made Men</title>
-    <link href="./output.css" rel="stylesheet">
+    <link href="../src/output.css" rel="stylesheet">
 </head>
 <body>
-    <h1 className="txt-white">Hello</h1>
+    <h1 class="text-red-500 text-5xl">Hello</h1>
 </body>
 </html>
