@@ -5,4 +5,7 @@
     --tracking-koho: -0.08em;
     --color-mmRed: #B60000;
     --color-inputGrey: #6C6C6C;
+    --color-btn-fill-default: #BD0000;
+    --color-btn-fill-hover: #D60000;
+    --font-inter: "Inter", sans-serif;  
 }
