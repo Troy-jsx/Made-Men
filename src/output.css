@@ -8,7 +8,6 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-indigo-50: oklch(96.2% 0.018 272.314);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-xl: 1.25rem;
@@ -32,6 +31,7 @@
     --color-btn-fill-default: #BD0000;
     --color-btn-fill-hover: #D60000;
     --font-inter: "Inter", sans-serif;
+    --color-avatar-stroke: #2D582E;
   }
 }
 @layer base {
@@ -189,20 +189,8 @@
   .relative {
     position: relative;
   }
-  .top-4 {
-    top: calc(var(--spacing) * 4);
-  }
-  .top-16 {
-    top: calc(var(--spacing) * 16);
-  }
   .top-\[15\%\] {
     top: 15%;
-  }
-  .top-\[25\%\] {
-    top: 25%;
-  }
-  .top-\[40\%\] {
-    top: 40%;
   }
   .right-\[-57dvw\] {
     right: -57dvw;
@@ -210,26 +198,8 @@
   .right-\[0vw\] {
     right: 0vw;
   }
-  .right-\[40\%\] {
-    right: 40%;
-  }
-  .right-\[80\%\] {
-    right: 80%;
-  }
-  .right-\[82\%\] {
-    right: 82%;
-  }
-  .right-\[85\%\] {
-    right: 85%;
-  }
   .right-\[86\%\] {
     right: 86%;
-  }
-  .right-\[90\%\] {
-    right: 90%;
-  }
-  .bottom-4 {
-    bottom: calc(var(--spacing) * 4);
   }
   .bottom-\[-1dvh\] {
     bottom: -1dvh;
@@ -240,11 +210,17 @@
   .flex {
     display: flex;
   }
+  .grid {
+    display: grid;
+  }
   .table {
     display: table;
   }
   .aspect-\[1\/1\] {
     aspect-ratio: 1/1;
+  }
+  .aspect-\[11\/7\] {
+    aspect-ratio: 11/7;
   }
   .aspect-\[600\/650\] {
     aspect-ratio: 600/650;
@@ -252,26 +228,17 @@
   .aspect-\[1768\/897\] {
     aspect-ratio: 1768/897;
   }
-  .h-\[90\%\] {
-    height: 90%;
-  }
-  .h-\[90dvh\] {
-    height: 90dvh;
-  }
-  .h-\[95dvh\] {
-    height: 95dvh;
-  }
   .h-\[97dvh\] {
     height: 97dvh;
   }
   .h-\[700px\] {
     height: 700px;
   }
-  .h-\[800px\] {
-    height: 800px;
+  .h-full {
+    height: 100%;
   }
-  .h-\[800x\] {
-    height: 800x;
+  .min-h-\[80\%\] {
+    min-height: 80%;
   }
   .min-h-screen {
     min-height: 100vh;
@@ -282,6 +249,12 @@
   .w-full {
     width: 100%;
   }
+  .min-w-0 {
+    min-width: 0px;
+  }
+  .flex-1 {
+    flex: 1;
+  }
   .flex-grow {
     flex-grow: 1;
   }
@@ -291,29 +264,46 @@
   .border-collapse {
     border-collapse: collapse;
   }
+  .translate-x-\[15\%\] {
+    --tw-translate-x: 15%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[15\%\] {
+    --tw-translate-y: 15%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .resize {
     resize: both;
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .flex-col {
     flex-direction: column;
   }
-  .gap-0 {
-    gap: 0px;
+  .flex-row {
+    flex-direction: row;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-1 {
     gap: var(--spacing);
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
-  .gap-8 {
-    gap: calc(var(--spacing) * 8);
-  }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
-  }
-  .gap-12 {
-    gap: calc(var(--spacing) * 12);
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
@@ -335,17 +325,28 @@
     border-style: var(--tw-border-style);
     border-width: 3px;
   }
+  .border-8 {
+    border-style: var(--tw-border-style);
+    border-width: 8px;
+  }
+  .border-\[15px\] {
+    border-style: var(--tw-border-style);
+    border-width: 15px;
+  }
+  .border-avatar-stroke {
+    border-color: var(--color-avatar-stroke);
+  }
   .border-inputGrey {
     border-color: var(--color-inputGrey);
   }
   .bg-btn-fill-default {
     background-color: var(--color-btn-fill-default);
   }
-  .bg-indigo-50 {
-    background-color: var(--color-indigo-50);
-  }
   .bg-transparent {
     background-color: transparent;
+  }
+  .bg-\[url\(\'\.\.\/public\/img\/IDCard\.png\'\)\] {
+    background-image: url('../public/img/IDCard.png');
   }
   .bg-\[url\(\'\.\.\/public\/img\/LobbyBg\.png\'\)\] {
     background-image: url('../public/img/LobbyBg.png');
@@ -359,11 +360,20 @@
   .bg-no-repeat {
     background-repeat: no-repeat;
   }
+  .stroke-avatar-stroke {
+    stroke: var(--color-avatar-stroke);
+  }
+  .object-cover {
+    object-fit: cover;
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
+  }
+  .px-12 {
+    padding-inline: calc(var(--spacing) * 12);
   }
   .py-1 {
     padding-block: var(--spacing);
@@ -371,11 +381,8 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
-  .py-2\.5 {
-    padding-block: calc(var(--spacing) * 2.5);
-  }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
+  .py-9 {
+    padding-block: calc(var(--spacing) * 9);
   }
   .text-left {
     text-align: left;
@@ -473,6 +480,39 @@
     --tw-outline-style: none;
     outline-style: none;
   }
+  @media (width >= 40rem) {
+    .sm\:border-8 {
+      border-style: var(--tw-border-style);
+      border-width: 8px;
+    }
+  }
+  @media (width >= 48rem) {
+    .md\:border-8 {
+      border-style: var(--tw-border-style);
+      border-width: 8px;
+    }
+  }
+  @media (width >= 64rem) {
+    .lg\:border-\[15px\] {
+      border-style: var(--tw-border-style);
+      border-width: 15px;
+    }
+  }
+}
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
 }
 @property --tw-border-style {
   syntax: "*";
@@ -569,6 +609,9 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;

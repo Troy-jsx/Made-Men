@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../views/**/*.php";
+@source "../public/**/*.php";
 
 @theme {
     --font-koho: "KoHo", sans-serif;
@@ -8,4 +10,5 @@
     --color-btn-fill-default: #BD0000;
     --color-btn-fill-hover: #D60000;
     --font-inter: "Inter", sans-serif;  
+    --color-avatar-stroke: #2D582E;
 }

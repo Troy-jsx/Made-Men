@@ -21,7 +21,9 @@
             // dir is THIS files path and we concat it to the route we want so it takes it to the right place
             'signup' => __DIR__ . '/../views/auth/signup.php',
             'login' => __DIR__ .'/../views/auth/login.php',
+            'onboard1' => __DIR__ . '/../views/auth/onboard1.php',
         ];
+        //echo $routes[$page];
 
         if (array_key_exists($page, $routes)) { //are they real 
             include $routes[$page]; //send to the page we need using the array
