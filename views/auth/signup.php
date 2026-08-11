@@ -1,11 +1,12 @@
 <body class="bg-[url('../public/img/LobbyBg.png')] bg-cover bg-center bg-no-repeat min-h-screen">
-    <div class='relative min-h-screen overflow-hidden'>
-        <div class="bg-[url('../public/img/BookShadow.png')] bg-cover absolute right-35 bottom-[-1dvh] h-[97dvh] aspect-1331/897 px-45 py-30">
+    <div class='min-h-screen overflow-hidden relative'>
+
+        <div class="flex flex-row gap-16 px-12 pt-15 sm:px-17 sm:pt-15 md:px-20 md:pt-22 lg:px-30 lg:pt-25 absolute right-0 bottom-[0] aspect-1331/897 bg-[url('../public/img/BookShadow.png')] bg-cover bg-center bg-no-repeat h-[95vh] drop-shadow-2xl/90">
             <?php
                 include '../views/partials/signupForm.php';
             ?>
         </div>
        
-        <img src="../public/img/PaperStack.png" class='absolute aspect-[1/1] bottom-[-45dvh] right-[-57dvw]'>
+        <img src="../public/img/PaperStack.png" class='absolute aspect-1/1 bottom-[-45dvh] right-[-57dvw]'>
     </div>
 </body>
