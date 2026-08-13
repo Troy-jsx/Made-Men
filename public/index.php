@@ -24,6 +24,7 @@
             'onboard1' => __DIR__ . '/../views/auth/onboard1.php',
             'onboard2' => __DIR__ . '/../views/auth/onboard2.php',
             'preGameMobSelect' => __DIR__ . '/../views/game/preGameMobSelect.php',
+            'gameScreen' => __DIR__ . '/../views/game/gameScreen.php',
         ];
         //echo $routes[$page];
 
