@@ -235,6 +235,18 @@
   .left-0 {
     left: 0px;
   }
+  .left-\[-0\] {
+    left: -0;
+  }
+  .left-\[-20vw\] {
+    left: -20vw;
+  }
+  .left-\[-50vw\] {
+    left: -50vw;
+  }
+  .left-\[-200vw\] {
+    left: -200vw;
+  }
   .flex {
     display: flex;
   }
@@ -262,6 +274,9 @@
   .aspect-\[600\/650\] {
     aspect-ratio: 600/650;
   }
+  .h-\[40vh\] {
+    height: 40vh;
+  }
   .h-\[80vh\] {
     height: 80vh;
   }
@@ -274,6 +289,9 @@
   .h-\[97dvh\] {
     height: 97dvh;
   }
+  .h-\[100dvh\] {
+    height: 100dvh;
+  }
   .h-\[105dvh\] {
     height: 105dvh;
   }
@@ -285,6 +303,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-\[40vw\] {
+    width: 40vw;
   }
   .w-fit {
     width: fit-content;
@@ -392,6 +413,9 @@
   .border-inputGrey {
     border-color: var(--color-inputGrey);
   }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
+  }
   .bg-btn-fill-default {
     background-color: var(--color-btn-fill-default);
   }
@@ -406,6 +430,9 @@
   }
   .bg-\[url\(\'\.\.\/public\/img\/LobbyBg\.png\'\)\] {
     background-image: url('../public/img/LobbyBg.png');
+  }
+  .bg-\[url\(\'\.\.\/public\/img\/WoodBG\.png\'\)\] {
+    background-image: url('../public/img/WoodBG.png');
   }
   .bg-\[url\(\'\.\.\/public\/img\/paperBG\.png\'\)\] {
     background-image: url('../public/img/paperBG.png');
