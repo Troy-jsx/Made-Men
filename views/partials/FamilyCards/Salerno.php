@@ -6,12 +6,12 @@
         </div>
         <div class="w-[60%] flex flex-col sm:gap-3 lg:gap-8 justify-center h-full">
             <div class="flex flex-row justify-between">
-                <h1 class="font-koho tracking-koho font-bold text-light-black lg:text-4xl md:text-2xl sm:text-2xl text-1xl">Players:</h1>
-                <h1 class="font-TNR tracking-koho font-bold text-light-black lg:text-4xl md:text-2xl sm:text-2xl text-1xl">19/30</h1>
+                <h1 class="font-koho tracking-koho font-bold text-light-black lg:text-3xl md:text-2xl sm:text-2xl text-1xl">Players:</h1>
+                <h1 class="font-TNR tracking-koho font-bold text-light-black lg:text-3xl md:text-2xl sm:text-2xl text-1xl">19/30</h1>
             </div>
             <div class="flex flex-row justify-between">
-                <h1 class="font-koho tracking-koho font-bold text-light-black lg:text-4xl md:text-2xl sm:text-2xl text-1xl">Control:</h1>
-                <h1 class="font-TNR tracking-koho font-bold text-light-black lg:text-4xl md:text-2xl sm:text-2xl text-1xl">0%</h1>
+                <h1 class="font-koho tracking-koho font-bold text-light-black lg:text-3xl md:text-2xl sm:text-2xl text-1xl">Control:</h1>
+                <h1 class="font-TNR tracking-koho font-bold text-light-black lg:text-3xl md:text-2xl sm:text-2xl text-1xl">0%</h1>
             </div>
         </div>
     </div>
