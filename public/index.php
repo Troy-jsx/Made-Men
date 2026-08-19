@@ -26,6 +26,8 @@
             'preGameMobSelect' => __DIR__ . '/../views/game/preGameMobSelect.php',
             'gameScreen' => __DIR__ . '/../views/game/gameScreen.php',
             'midGameMobSelect' => __DIR__ . '/../views/game/midGameMobSelect.php',
+            'mobInfo' => __DIR__ . '/../views/game/mobInfoPage.php',
+            'ledger' => __DIR__ . '/../views/game/ledger.php',
         ];
         //echo $routes[$page];
 

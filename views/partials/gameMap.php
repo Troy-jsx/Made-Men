@@ -1,10 +1,10 @@
 <?php
 $mobColors = [
-    'Salerno'   => 'red-600',
-    'Brennan'   => 'green-600',
-    'Ishikawa'  => 'purple-600',
-    'Salazar'   => 'yellow-500',
-    'unclaimed' => 'gray-400',
+    'Salerno'   => ['bg' => 'bg-red-500',    'text' => 'text-red-500'],
+    'Brennan'   => ['bg' => 'bg-green-500',  'text' => 'text-green-500'],
+    'Ishikawa'  => ['bg' => 'bg-purple-500', 'text' => 'text-purple-500'],
+    'Salazar'   => ['bg' => 'bg-yellow-500', 'text' => 'text-yellow-500'],
+    'unclaimed' => ['bg' => 'bg-gray-400',   'text' => 'text-gray-400'],
 ];
 
 $territories = [
@@ -23,15 +23,15 @@ $territories = [
     <img src="../public/img/Map.png" class="w-full h-full object-cover">
 
     <?php foreach ($territories as $territory): ?>
-        <?php $color = $mobColors[$territory['owner']] ?? $mobColors['unclaimed']; ?>
+        <?php $color = $mobColors[$territory['owner']] ?? $mobColors['unclaimed'];?>
         <div
             class="group absolute -translate-x-1/2 -translate-y-1/2"
             style="top: <?= $territory['top'] ?>%; left: <?= $territory['left'] ?>%;">
-            <div class="aspect-square transition-all duration-100 hover:scale-125 w-7 rounded-full bg-<?= $color ?> border-2 border-white drop-shadow-lg/90"></div>
+            <div class="aspect-square transition-all duration-100 hover:scale-125 w-7 rounded-full <?= $color['bg'] ?> border-2 border-white drop-shadow-lg/90"></div>
 
             <div class="flex flex-col absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 pt-2 pb-3 rounded-md bg-black/85 text-white text-sm font-koho w-[350px] opacity-0 group-hover:opacity-100 transition-opacity duration-150 pointer-events-none z-50">
                 <span class="font-bold text-2xl"><?= htmlspecialchars($territory['name']) ?></span>
-                <span class="font-semibold text-xl  text-yellow-200"><?= htmlspecialchars($territory['owner']) ?></span>
+                <span class="font-semibold text-xl  <?= $color['text'];?> ?>"><?= htmlspecialchars($territory['owner']) ?></span>
                 <span class="font-medium text-sm"><?= htmlspecialchars($territory['description']) ?></span>
                 <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-black/85"></div>
             </div>
