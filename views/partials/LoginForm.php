@@ -1,4 +1,4 @@
-<form class="flex flex-col gap-3 sm:gap-4 md:gap-6 lg:gap-10 aspect-[600/650] h-[90%]">
+<form class="flex flex-col gap-3 sm:gap-4 md:gap-6 lg:gap-10 aspect-600/650 h-[90%]">
     <label class='font-koho font-bold tracking-koho text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-shadow-lg/40'>Log In</label>
 
     <div class='flex flex-col md:gap-4 lg:gap-6 w-fit'>
@@ -15,7 +15,7 @@
 
     <div class='flex flex-col gap-0.5 sm:gap-1 md:gap-2 lg:gap-3'>
         <?php
-            $nextPage = '?page=signup';
+            $nextPage = '?page=midGameMobSelect';
             include "nextButton.php";
         ?>
 
