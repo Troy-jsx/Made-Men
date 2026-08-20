@@ -8,6 +8,7 @@
 <p align="center">
 
   <a href="https://github.com/troy-jsx/made-men">
+
     ![image1][image1]
   </a>
 
@@ -100,10 +101,15 @@ Move the project folder into your XAMPP `htdocs` directory and start Apache and 
 Signup collects username, email and password only. New players then pick an avatar through a no-JS, CSS `:has()`-based live preview, before landing on mob select. Login routes players automatically based on progress: no avatar sends you to onboarding, an avatar with no mob sends you to mob select, if the user has both they are sent into the game screen.
 
 ![image2][image2]
+
 ![image12][image12]
+
 ![image13][image13]
+
 ![image14][image14]
+
 ![image15][image15]
+
 ### Game Screen & Territory Map
 
 The map shows colour-coded dots per territory, with all relevant data pulled live from the database. A sidebar shows the player's avatar, mob, cash, rank, level and any tasks assigned to them.
@@ -224,12 +230,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [image2]: /readMeImgs/SignUp.png
 [image3]: /readMeImgs/gameScreen.png
 [image5]: /readMeImgs/createTask.png
-[image6]: /path/to/image.png
-[image7]: /path/to/image.png
-[image8]: /path/to/image.png
-[image9]: /path/to/image.png
-[image10]: /path/to/image.png
-[image11]: /path/to/image.png
+[image6]: /readMeImgs/ideation.png
+[image10]: /readMeImgs/mockup1.png
+[image11]: /readMeImgs/mockup2.png
 [image12]: /readmeImgs/Login.png
 [image13]: /readmeImgs/ob1.png
 [image14]: /readmeImgs/ob2.png
