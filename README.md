@@ -7,9 +7,9 @@
 </br>
 <p align="center">
 
-<div align="center">
-    ![image1][image1]
-</div>
+<p align="center">
+  <img src="/readMeImgs/Made%20Men.png" alt="image1">
+</p>
 
   <h3 align="center">Made Men</h3>
 
@@ -215,7 +215,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[image1]: /readMeImgs/Made%20Men.png
 [image2]: /readMeImgs/SignUp.png
 [image3]: /readMeImgs/gameScreen.png
 [image5]: /readMeImgs/createTask.png
