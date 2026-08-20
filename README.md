@@ -196,7 +196,7 @@ The `Development Process` covers the technical implementation and functionality 
 
 To see a run through of the application, click below:
 
-[View Demonstration](path/to/video/demonstration)
+[View Demonstration](https://drive.google.com/file/d/1iLtI2ccw_1nlE2Bp5QnthvuAnqXjEszi/view?usp=sharing)
 
 ## Contributing
 
@@ -233,11 +233,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [image6]: /readMeImgs/ideation.png
 [image10]: /readMeImgs/mockup1.png
 [image11]: /readMeImgs/mockup2.png
-[image12]: /readmeImgs/Login.png
-[image13]: /readmeImgs/ob1.png
-[image14]: /readmeImgs/ob2.png
-[image15]: /readmeImgs/mgSelect.png
-[image16]: /readmeImgs/vote.png
-[image17]: /readmeImgs/overlay.png
-[image18]: /readmeImgs/ledger.png
-[image19]: /readmeImgs/hoverhannah.png
+[image12]: /readMeImgs/Login.png
+[image13]: /readMeImgs/ob1.png
+[image14]: /readMeImgs/ob2.png
+[image15]: /readMeImgs/mgSelect.png
+[image16]: /readMeImgs/vote.png
+[image17]: /readMeImgs/overlay.png
+[image18]: /readMeImgs/ledger.png
+[image19]: /readMeImgs/hoverhannah.png
