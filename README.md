@@ -7,7 +7,9 @@
 </br>
 <p align="center">
 
-  ![image1][image1]
+<div align="center">
+    ![image1][image1]
+</div>
 
   <h3 align="center">Made Men</h3>
 
