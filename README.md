@@ -7,10 +7,7 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/troy-jsx/made-men">
-
-    ![image1][image1]
-  </a>
+  ![image1][image1]
 
   <h3 align="center">Made Men</h3>
 
@@ -18,7 +15,7 @@
     A browser-based mafia simulator. Join a mob, complete tasks, vote on family decisions, and fight for territory and survival <br>
    <br />
    <br />
-   <a href="path/to/demonstration/video">View Demo</a>
+   <a href="https://drive.google.com/file/d/1iLtI2ccw_1nlE2Bp5QnthvuAnqXjEszi/view?usp=sharing">View Demo</a>
 </p>
 
 ## Table of Contents
@@ -140,16 +137,6 @@ The `Conceptual Process` is the set of actions, activities and research that was
 ### Ideation
 
 ![image6][image6]
-<br>
-![image7][image7]
-
-### Wireframes
-
-![image8][image8]
-
-### User-flow
-
-![image9][image9]
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
